@@ -1,0 +1,47 @@
+{
+  "name": "my-love-plugins",
+  "owner": {
+    "name": "Sallvainian",
+    "url": "https://github.com/Sallvainian"
+  },
+  "metadata": {
+    "description": "MCP servers for the My Love PWA project",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "mcp-servers",
+      "source": "./plugins/mcp-servers",
+      "description": "MCP servers for development: Playwright, TypeScript docs, Supabase, Vitest, and Refactor TypeScript",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sallvainian"
+      },
+      "keywords": ["mcp", "playwright", "supabase", "vitest", "typescript"],
+      "strict": false,
+      "mcpServers": {
+        "playwright": {
+          "command": "npx",
+          "args": ["@playwright/mcp@latest"]
+        },
+        "typescript-docs": {
+          "command": "npx",
+          "args": ["-y", "mcp-remote", "https://gitmcp.io/microsoft/TypeScript"],
+          "url": "https://gitmcp.io/microsoft/TypeScript"
+        },
+        "supabase": {
+          "type": "http",
+          "url": "https://mcp.supabase.com/mcp"
+        },
+        "vitest": {
+          "command": "npx",
+          "args": ["-y", "@djankies/vitest-mcp"]
+        },
+        "refactor-typescript": {
+          "command": "bunx",
+          "args": ["mcp-refactor-typescript"]
+        }
+      }
+    }
+  ]
+}
