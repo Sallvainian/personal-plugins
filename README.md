@@ -1,6 +1,6 @@
-# My Love Plugins
+# Personal Plugins
 
-Claude Code plugin marketplace for the My Love PWA project.
+Claude Code plugin marketplace for personal projects.
 
 ## MCP Servers
 
@@ -15,6 +15,6 @@ Claude Code plugin marketplace for the My Love PWA project.
 ## Install
 
 ```
-/plugin marketplace add Sallvainian/my-love-plugins
-/plugin install mcp-servers@my-love-plugins
+/plugin marketplace add Sallvainian/personal-plugins
+/plugin install my-love-plugins@personal-plugins
 ```

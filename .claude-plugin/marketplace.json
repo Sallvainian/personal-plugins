@@ -1,5 +1,5 @@
 {
-  "name": "my-love-plugins",
+  "name": "personal-plugins",
   "owner": {
     "name": "Sallvainian",
     "url": "https://github.com/Sallvainian"
@@ -10,8 +10,8 @@
   },
   "plugins": [
     {
-      "name": "mcp-servers",
-      "source": "./plugins/mcp-servers",
+      "name": "my-love-plugins",
+      "source": "./plugins/my-love-plugins",
       "description": "MCP servers for development: Playwright, TypeScript docs, Supabase, Vitest, and Refactor TypeScript",
       "version": "1.0.0",
       "author": {
