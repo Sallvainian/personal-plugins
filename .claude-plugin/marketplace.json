@@ -52,7 +52,7 @@
         "name": "Affaan Mustafa"
       },
       "keywords": ["claude-code", "code-review", "refactor", "typescript", "architect"],
-      "strict": false,
+      "strict": true,
       "commands": [
         "./commands/aside.md",
         "./commands/build-fix.md",
@@ -69,8 +69,7 @@
       ],
       "skills": [
         "./skills/backend-patterns/SKILL.md"
-      ],
-      "hooks": "./hooks/hooks.json"
+      ]
     }
   ]
 }
