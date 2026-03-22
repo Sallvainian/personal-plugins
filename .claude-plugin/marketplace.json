@@ -42,6 +42,35 @@
           "args": ["mcp-refactor-typescript"]
         }
       }
+    },
+    {
+      "name": "everything-claude-code",
+      "source": "./plugins/everything-claude-code",
+      "description": "Aside Command, Build and Fix, Code Review, evolve, /learn - Extract Reusable Patterns, /learn-eval - Extract, Evaluate, then Save, code-reviewer, architect, refactor-cleaner, typescript-reviewer, backend-patterns, Hooks Config",
+      "version": "1.0.0",
+      "author": {
+        "name": "Affaan Mustafa"
+      },
+      "keywords": ["claude-code", "code-review", "refactor", "typescript", "architect"],
+      "strict": false,
+      "commands": [
+        "./commands/aside.md",
+        "./commands/build-fix.md",
+        "./commands/code-review.md",
+        "./commands/evolve.md",
+        "./commands/learn.md",
+        "./commands/learn-eval.md"
+      ],
+      "agents": [
+        "./agents/code-reviewer.md",
+        "./agents/architect.md",
+        "./agents/refactor-cleaner.md",
+        "./agents/typescript-reviewer.md"
+      ],
+      "skills": [
+        "./skills/backend-patterns/SKILL.md"
+      ],
+      "hooks": "./hooks/hooks.json"
     }
   ]
 }
